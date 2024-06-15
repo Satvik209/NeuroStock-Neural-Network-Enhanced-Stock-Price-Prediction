@@ -8,6 +8,7 @@ matplotlib.pyplot
 datetime
 Scikit-Learn
 keras
+xgboost
 tensorflow
 streamlit
 pandas_ta
