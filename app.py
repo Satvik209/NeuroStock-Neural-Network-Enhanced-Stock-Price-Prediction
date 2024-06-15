@@ -1,7 +1,6 @@
 import math
 import numpy as np 
 import pandas as pd
-import yfinance as yf
 from pandas_datareader import data as pdr
 import plotly.express as px
 import matplotlib.pyplot as plt
@@ -13,11 +12,16 @@ from keras.models import load_model
 from tensorflow import keras
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import mean_squared_error
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, StackingRegressor
+from sklearn.preprocessing import MinMaxScaler
+from xgboost import XGBRegressor
+from sklearn.linear_model import LinearRegression
 import tensorflow as tf
 from keras.models import load_model
 import streamlit as st
 import plotly.graph_objects as go
 import pandas_ta as ta
+import yfinance as yf
 
 st.set_page_config( page_title="NeuroStock", page_icon="chart_with_upwards_trend",layout="wide")
 st.title('NeuroStock: Neural Network Enhanced Stock Price Prediction')
