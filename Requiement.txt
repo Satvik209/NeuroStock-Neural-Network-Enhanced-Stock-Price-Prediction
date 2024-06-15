@@ -12,3 +12,9 @@ xgboost
 tensorflow
 streamlit
 pandas_ta
+sklearn.preprocessing
+sklearn.model_selection
+keras.models
+plotly.graph_objects
+sklearn.ensemble
+sklearn.linear_model
